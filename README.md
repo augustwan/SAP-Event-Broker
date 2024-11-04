@@ -51,6 +51,7 @@ However, it currently uses a simple in-memory `List` as the cache and does not i
    
 ### Future Enhancements
 
+* **CI/CD Pipeline**: Configure Jenkins pipelines for both pull request (PR) and production release jobs, with integration into Kubernetes clusters for cloud deployments if needed.
 * **Database Integration**: For larger or dynamic datasets, migrating from CSV or persists them to a database such as PostgreSQL or MongoDB would enhance scalability and manageability.
 * **Additional Filters**: Extend filtering options to include criteria like `restRoom`, `picnic`, or specific trail classes.
 * **Open Data Integration**: Enable direct interaction with external data sources, such as Boulder County’s geospatial open data, if an API is provided.
