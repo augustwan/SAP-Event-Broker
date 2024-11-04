@@ -2,9 +2,7 @@
 
 ### Project Overview
 
-Trail Filter Service is a Spring WebFlux-based REST API that provides filtering functionality for trail data.
-This service allows users to filter trails by specific criteria, such as trail type (bike or walking) and fishing availability. 
-It loads trail data from a CSV file (BoulderTrailHeads.csv) and provides efficient, reactive endpoints for real-time filtering.
+The Trail Filter Service is a Spring WebFlux-based REST API that leverages trail data published by Boulder County. This service enables users to filter trails based on specific criteria, such as trail type (bike or walking) and fishing availability. It loads trail information from a CSV file (BoulderTrailHeads.csv) and offers efficient, reactive endpoints for real-time filtering.
 
 
 ### Design Decision
